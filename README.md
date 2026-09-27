@@ -1,3 +1,13 @@
+# Shadowrocket（iOS）版本
+
+此 fork 已加入 Shadowrocket 設定、規則轉換及每日更新流程：**[安裝與使用說明](SHADOWROCKET.md)**。
+
+- [下載設定](https://raw.githubusercontent.com/kofttlcc/surge-rules/shadowrocket-release/shadowrocket.conf)
+- [下載不含廣告封鎖的精簡版](https://raw.githubusercontent.com/kofttlcc/surge-rules/shadowrocket-release/shadowrocket-lite.conf)
+- [檢查每日建置](https://github.com/kofttlcc/surge-rules/actions/workflows/shadowrocket.yml)
+
+以下保留上游 Surge 專案說明。
+
 # 简介 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Loyalsoldier/surge-rules/total?logo=github) [![jsdelivr stats](https://data.jsdelivr.com/v1/package/gh/Loyalsoldier/surge-rules/badge?style=rounded)](https://www.jsdelivr.com/package/gh/Loyalsoldier/surge-rules)
 
 本项目生成适用于 [**Surge**](https://nssurge.com) 的规则集（DOMAIN-SET 和 RULE-SET）。使用 GitHub Actions 北京时间每天早上 6:30 自动构建，保证规则最新。
