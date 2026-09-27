@@ -1,0 +1,134 @@
+{
+  "artifacts": {
+    "LICENSE": {
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    "README.md": {
+      "bytes": 1914,
+      "sha256": "09b6d78e1511e5cfc9b5f7b9ba64de1b965c6a3b4d3118df7e09f98081f68b9b"
+    },
+    "shadowrocket-lite.conf": {
+      "bytes": 1862,
+      "sha256": "287cf6c79ef8e5363704bbc92651d8c930a47858dcc8dcaaef3ffc773da2e49c"
+    },
+    "shadowrocket.conf": {
+      "bytes": 1984,
+      "sha256": "95334ed2e527d316d8a38afc652d7571d1220218898bc84fb3803db5998aa2b3"
+    }
+  },
+  "release_branch": "shadowrocket-release",
+  "repository": "kofttlcc/surge-rules",
+  "rules": {
+    "rules/apple.list": {
+      "duplicates_removed": 0,
+      "input": "ruleset/apple.txt",
+      "input_rule_count": 165,
+      "input_sha256": "0ae52311f528d0a188439ffd6989328a952a0a0e560f701f0b151505a2457873",
+      "output_rule_count": 165,
+      "output_sha256": "0ae52311f528d0a188439ffd6989328a952a0a0e560f701f0b151505a2457873"
+    },
+    "rules/cncidr.list": {
+      "duplicates_removed": 0,
+      "input": "ruleset/cncidr.txt",
+      "input_rule_count": 9612,
+      "input_sha256": "411f6023814fd62bb94e61d2078e1f99922c4f94f9ce480caed27a8be4101db4",
+      "output_rule_count": 9612,
+      "output_sha256": "e5531f92e6c842ddc02023b26be668657dab3880393b16aff5f312fbc4be2d88"
+    },
+    "rules/custom-direct.list": {
+      "duplicates_removed": 0,
+      "input": "coustom-direct",
+      "input_rule_count": 2,
+      "input_sha256": "c872e6beab03d0bee5ab8a85220c313ff2bed3f5eb16a3f268291e75199ebdc4",
+      "output_rule_count": 2,
+      "output_sha256": "41bf1714349eb10d88a837702c3b47d3e37a8f290083219d370eed0aaed11033"
+    },
+    "rules/direct.list": {
+      "duplicates_removed": 0,
+      "input": "ruleset/direct.txt",
+      "input_rule_count": 111353,
+      "input_sha256": "24dc0375d42da803c6c86bbb83f845fcf453fc86e8866c32402ae8918755621c",
+      "output_rule_count": 111353,
+      "output_sha256": "24dc0375d42da803c6c86bbb83f845fcf453fc86e8866c32402ae8918755621c"
+    },
+    "rules/gfw.list": {
+      "duplicates_removed": 0,
+      "input": "ruleset/gfw.txt",
+      "input_rule_count": 4389,
+      "input_sha256": "6eb7c90873874a614c3a06ae51830a1461ad0d615e503b852f08d376bb22be8b",
+      "output_rule_count": 4389,
+      "output_sha256": "6eb7c90873874a614c3a06ae51830a1461ad0d615e503b852f08d376bb22be8b"
+    },
+    "rules/google.list": {
+      "duplicates_removed": 0,
+      "input": "ruleset/google.txt",
+      "input_rule_count": 112,
+      "input_sha256": "71d385f264edcec55e865debb8bb66a007379975defa5d4f4ff7ec2b0e6940f8",
+      "output_rule_count": 112,
+      "output_sha256": "71d385f264edcec55e865debb8bb66a007379975defa5d4f4ff7ec2b0e6940f8"
+    },
+    "rules/greatfire.list": {
+      "duplicates_removed": 0,
+      "input": "ruleset/greatfire.txt",
+      "input_rule_count": 10,
+      "input_sha256": "78babb106e6ebf2e7547b1df1358c3c84e7d90e2fb4c2b0252fd9d48287e26cc",
+      "output_rule_count": 10,
+      "output_sha256": "78babb106e6ebf2e7547b1df1358c3c84e7d90e2fb4c2b0252fd9d48287e26cc"
+    },
+    "rules/icloud.list": {
+      "duplicates_removed": 0,
+      "input": "ruleset/icloud.txt",
+      "input_rule_count": 53,
+      "input_sha256": "d05b3c4ac8034e5f57ef0b1b5895c0e2070d2c8ca1a9dffc780bf88ca0f08a86",
+      "output_rule_count": 53,
+      "output_sha256": "d05b3c4ac8034e5f57ef0b1b5895c0e2070d2c8ca1a9dffc780bf88ca0f08a86"
+    },
+    "rules/private.list": {
+      "duplicates_removed": 0,
+      "input": "ruleset/private.txt",
+      "input_rule_count": 130,
+      "input_sha256": "21764f1415da8a3252463d16cc48bf4c4e695cf64048c821e5860333d271180c",
+      "output_rule_count": 130,
+      "output_sha256": "21764f1415da8a3252463d16cc48bf4c4e695cf64048c821e5860333d271180c"
+    },
+    "rules/proxy.list": {
+      "duplicates_removed": 0,
+      "input": "ruleset/proxy.txt",
+      "input_rule_count": 27102,
+      "input_sha256": "e49c57bb0566c863d287227f49bf55058ab574ec664f3af050866bfd32d7393e",
+      "output_rule_count": 27102,
+      "output_sha256": "e49c57bb0566c863d287227f49bf55058ab574ec664f3af050866bfd32d7393e"
+    },
+    "rules/reject.list": {
+      "duplicates_removed": 0,
+      "input": "ruleset/reject.txt",
+      "input_rule_count": 192363,
+      "input_sha256": "3b1f42902c1a476a8b2acf80d4e1841ee6bcda474caa51561a6833876ee40608",
+      "output_rule_count": 192363,
+      "output_sha256": "81e097221e6c1c6e05f2dccf5048602eba4523416f65715fafe18be9a2b768c9"
+    },
+    "rules/telegramcidr.list": {
+      "duplicates_removed": 0,
+      "input": "ruleset/telegramcidr.txt",
+      "input_rule_count": 12,
+      "input_sha256": "0d7d5252552d4dfd75c5b76bab4bfdb3313c1946611e22039d06008c7ef3c678",
+      "output_rule_count": 12,
+      "output_sha256": "6ad6d6ff302911e14dcdb9e2a046a00ad9d9fb78efe2e337698285cd7cc8b6c3"
+    },
+    "rules/tld-not-cn.list": {
+      "duplicates_removed": 0,
+      "input": "ruleset/tld-not-cn.txt",
+      "input_rule_count": 829,
+      "input_sha256": "c972891267e6a9ba6b7614c9899ddfff08b35e44ed21bcd904b1e9f96e6092e9",
+      "output_rule_count": 829,
+      "output_sha256": "c972891267e6a9ba6b7614c9899ddfff08b35e44ed21bcd904b1e9f96e6092e9"
+    }
+  },
+  "schema_version": 1,
+  "upstream": {
+    "branch": "release",
+    "repository": "Loyalsoldier/surge-rules",
+    "sha": "d6d0f037e2922d824b858a537a3d3b7229778d93"
+  }
+}
